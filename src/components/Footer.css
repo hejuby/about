@@ -1,0 +1,33 @@
+.footer-feed {
+  /* background-color: #B38867; */
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.forms-dashboard-item-date {
+  text-align: right;
+}
+
+.footer-contact {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footer-contact > nav > a {
+  border-bottom: none;
+}
+
+.footer-contact > nav > a > h2 {
+  margin: 0;
+  display: inline;
+}
+
+@media (max-width: 475px) {
+  .footer-feed {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "about",
+  "version": "0.1.0",
+  "description": "My personal about page built by React.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hejuby/about.git"
+  },
+  "author": "Heejun Byeon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hejuby/about/issues"
+  },
+  "homepage": "https://hejuby.github.io/about",
+  "dependencies": {
+    "eslint": "^3.19.0",
+    "jquery": "^3.2.1",
+    "octicons": "^5.0.1",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-icons": "^2.2.5"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "react-scripts": "0.9.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

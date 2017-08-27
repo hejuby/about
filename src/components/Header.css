@@ -1,0 +1,36 @@
+.app-header {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  /* background-color: #1E0000; */
+  /* background-image: url("./../images/bubble.jpg");
+  background-color: #666666;
+  background-blend-mode: multiply;
+  background-size: cover;
+  height: 100vh; */
+}
+
+.app-header-vertical {
+  vertical-align: middle;
+}
+
+.app-header-logo {
+  /* color: #DCDCDC; */
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+@media (max-width:475px) {
+  .app-header {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 330px) {
+  .app-header {
+    /* padding-top: 1rem;
+    padding-bottom: 2rem; */
+  }
+}

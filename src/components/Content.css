@@ -1,0 +1,28 @@
+.content-description, .content-list {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.content-description {
+  /* background-color: #500805; */
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.content-list {
+  /* background-color: #9D331F; */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+@media (max-width: 475px) {
+  .content-description, .content-list {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
